@@ -1,0 +1,17 @@
+.character {
+  background: #FFF;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px 0px #7d7d7d;
+  padding: 10px;
+  text-align: center;
+  max-width: 400px;
+}
+
+.character__image {
+  height: 100px;
+  width: auto;
+  max-width: 100%;
+  border-radius: 5px;
+  display: inline-block;
+}
+
