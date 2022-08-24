@@ -5,6 +5,7 @@
   padding: 10px;
   text-align: center;
   max-width: 400px;
+  cursor: pointer;
 }
 
 .character__image {

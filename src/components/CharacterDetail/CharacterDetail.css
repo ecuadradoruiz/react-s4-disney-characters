@@ -1,0 +1,22 @@
+.character-detail {
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.character-detail__info {
+  background: #fff;
+  border-radius: 5px;
+  min-height: 10vh;
+  height: auto;
+  width: 80vw;
+  max-width: 500px;
+  max-height: 400px;
+  text-align: center;
+}
