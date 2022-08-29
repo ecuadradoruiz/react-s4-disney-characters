@@ -16,3 +16,8 @@
   display: inline-block;
 }
 
+.character__name {
+  max-width: 140px;
+  text-align: center;
+  margin: 0 auto;
+}
