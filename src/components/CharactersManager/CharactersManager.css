@@ -15,7 +15,6 @@
 
 .characters-manager__grid .character {
   margin: 10px 10px;
-  width: calc(10% - 20px);
 }
 
 .characters-manager__pager {

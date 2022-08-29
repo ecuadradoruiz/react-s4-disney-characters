@@ -45,7 +45,7 @@ const CharactersManager = () => {
 
   return (
     <div className="characters-manager">
-      <h2 className="characters-manager__title">Personajes Disney</h2>
+      <h2 className="characters-manager__title">DisneyPedia</h2>
 
       <div className="characters-manager__grid">
         {disneyCharacters.map(character => <Character
