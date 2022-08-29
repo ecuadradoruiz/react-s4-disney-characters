@@ -7,7 +7,7 @@ const CharacterDetail = (props) => {
     <div className="character-detail" onClick={() => props.onClick(null)}>
       <div className="character-detail__info">
 
-        <h1>{props.character.name}</h1>
+        <h1 className="character-detail__title">{props.character.name}</h1>
         <img alt={props.character.name} src={props.character.imageUrl} />
         {props.character.allies && props.character.allies.length ? <p><strong>Aliados:</strong> {props.character.allies.map((ally) => <span key={ally}>{ally}, </span>)}</p> : ''}
         {props.character.enemies && props.character.enemies.length ? <p><strong>Enemigos:</strong> {props.character.enemies.map((enemy) => <span key={enemy}>{enemy}, </span>)}</p> : ''}
